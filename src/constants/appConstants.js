@@ -6,12 +6,13 @@ export const APP = {
 
 export const ROUTES = {
   HOME: '/',
+  LOGIN: '/login',
+  REGISTER: '/register',
+  VERIFY_OTP: '/verify-otp',
   EXPENSES: '/expenses',
   EXPENSE_DETAIL: '/expenses/:id',
   DASHBOARD: '/dashboard',
-  BUDGET: '/budget',
-  LOGIN: '/login',
-  REGISTER: '/register'
+  BUDGET: '/budget'
 };
 
 export const HTTP_STATUS = {

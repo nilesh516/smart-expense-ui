@@ -71,3 +71,27 @@ export const COMING_SOON = {
     phase: 'Phase 6'
   }
 };
+export const AUTH_MESSAGES = {
+  LOGIN_SUCCESS: 'Welcome back!',
+  REGISTER_SUCCESS: 'Account created successfully!',
+  OTP_SENT: 'Verification code sent to your email.',
+  OTP_INVALID: 'Invalid OTP. Please try again.',
+  OTP_EXPIRED: 'OTP has expired. Please request a new one.',
+  INVALID_CREDENTIALS: 'Invalid email or password.',
+  EMAIL_EXISTS: 'Email already registered. Please login instead.',
+  LOGOUT_SUCCESS: 'You have been logged out.'
+};
+
+export const AUTH_PLACEHOLDERS = {
+  NAME: 'Enter your full name',
+  EMAIL: 'Enter your email address',
+  PASSWORD: 'Enter your password',
+  OTP: '······'
+};
+
+export const AUTH_LABELS = {
+  NAME: 'Full Name',
+  EMAIL: 'Email Address',
+  PASSWORD: 'Password',
+  OTP: 'Verification Code'
+};
